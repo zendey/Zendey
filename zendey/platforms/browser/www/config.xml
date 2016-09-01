@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1" id="com.zendey.flashcard" ios-CFBundleVersion="0.0.1" version="0.0.1" windows-packageVersion="0.0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Zendey</name>
+    <description>
+        Zendey Flashcards.  Fun learning for kids.
+    </description>
+    <author email="info@zendey.com" href="http://zendey.com">
+        Zendey
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon src="asset/image/icon/icon.png" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="landscape" />
+</widget>

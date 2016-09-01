@@ -1,0 +1,44 @@
+body {
+	font-family: "Muli", sans-serif;
+}
+
+.bp_container {
+	height: 100vh;
+	width: 100%;
+}
+
+.bp_home_background {
+	height: 100vh;
+}
+
+.bp_brand_title, .bp_app_title {
+	color: #ffffff;
+	font-size: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.bp_icon {
+	height: 100px;
+	width: 100px;
+}
+
+.bp_deck {
+/*	background-color: #2196F3; */
+	color: #ffffff;
+	font-size: 2.5em;
+	height: 300px;
+	max-height: 45vh;
+	margin: 10px;
+	overflow: hidden;
+	padding: 1em;
+	position: relative;
+	text-align: center;
+	bottom: 0;
+}
+
+.bp_flashcard {
+	font-size: 10em;
+	height: auto;
+}
+

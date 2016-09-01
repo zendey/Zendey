@@ -1,0 +1,13 @@
+@font-face {
+	font-family: "Muli";
+	src: url('../font/muli.woff2') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Pacifico";
+	src: url('../font/pacifico.woff2') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
