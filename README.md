@@ -45,5 +45,3 @@ For bug reports, feature requests, questions, or corrections, please contact me 
  - honeysilvas@gmail.com
  - Site: http://zendey.com
  - @zendeycards
- 
- GitHub Test- Kyle Barnes 9/9/16
