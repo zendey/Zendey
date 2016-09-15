@@ -1,0 +1,8 @@
+{
+	"brand_title" : "Zendey",
+	"app_title": "Baby Flashcards",
+	"deck": [ "first_words", "food_and_drink", "shapes", "colors", "animals", "transportation" ],
+	"css": "style.css",
+	"google_license_key" : "",
+	"google_license_key_lite" : ""
+}
