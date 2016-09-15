@@ -6,7 +6,7 @@ var card_counter = 0;
 
 function set_app( data ){
 	// Get card word list.
-	read_file( "../asset/vendor/zendey/0.0.1/card/sight_word/primer.txt", set_card );
+	read_file( "../asset/vendor/zendey/0.0.1/card/sight_word/pre-primer.txt", set_card );
 	document.getElementById( "z_card" ).addEventListener( "click", display_card );
 	display_card();
 }

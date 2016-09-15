@@ -2,5 +2,7 @@
 	"brand_title" : "Zendey",
 	"app_title": "Sight Words",
 	"deck": [ "pre-primer", "primer", "grade_1", "grade_2", "grade_3", "noun" ],
-	"css": "style.css"
+	"css": "style.css",
+	"google_license_key" : "",
+	"google_license_key_lite" : ""
 }
