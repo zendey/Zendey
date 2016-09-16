@@ -37,15 +37,24 @@ body {
 }
 
 .bp_flashcard {
-	font-size: 10em;
+	font-size: 20em;
+	font-size: 20vw;
 	height: auto;
+	max-height: 100vh;
+    text-align: center;
 	/* Fixes text gets highlighted when clicked. */
 	-webkit-touch-callout: none; /* iOS Safari */
 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
 	-khtml-user-select: none;    /* Konqueror */
 	-moz-user-select: none;      /* Firefox */
 	-ms-user-select: none;       /* IE/Edge */
-	user-select: none;           /* non-prefixed version, currently not supported by any browser */	
+	user-select: none;           /* non-prefixed version, currently not supported by any browser */
+}
+
+.bp_flashcard div {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .back_button{
