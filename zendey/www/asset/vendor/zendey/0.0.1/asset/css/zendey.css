@@ -84,3 +84,60 @@ body {
 	width:42px;
 	height:42px;
 }
+
+/* Settings menu icon on homepage */
+.settings_button{
+	width: 2.625em;
+	height: 2.625em;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+/* Content area for the homepage menu */
+.menu-content {
+    background-color: white;
+    width: 18.75em;
+    padding: 1.5625em;
+    margin: 1.5625em;
+    text-align: center;
+    border-radius: 0.4375em;
+    display: block;
+    margin: auto;
+}
+
+/* Home page settings menu buttons */
+.menu_button, .close{
+    width: 65%;
+    padding: .4em;
+    margin: .3em;
+    border-radius: 0.4375em;
+	font-size: .75em;
+	font-family: "Muli", sans-serif;
+	background: #d8d8d8;
+	border-width: 0;
+}
+
+/* Header for all the settings menu pages */
+.menu_header{
+    text-align: center;
+    float: middle;
+}
+
+/* Background color for settings menu pages (Set to orange to match homepage) */
+.menu_page_background{
+	background-color: #ff9800;
+}
+
+/* Radio buttons on the settings page */
+.radio_settings{
+	text-align: left;
+	font-size: 1em;
+}
+
+/* Content for the menu pages */
+.help_info, .about_info, .review_info, .upgrade_info{
+	font-size: 0.75em;
+	text-align: left;
+}
+

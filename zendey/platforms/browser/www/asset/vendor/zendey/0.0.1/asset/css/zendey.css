@@ -19,15 +19,14 @@ body {
 }
 
 .bp_icon {
-	height: 100px;
-	width: 100px;
+	height: 5em;
+	width: 5em;	
 }
 
 .bp_deck {
-/*	background-color: #2196F3; */
 	color: #ffffff;
 	font-size: 2.5em;
-	height: 300px;
+	height: 30em;
 	max-height: 45vh;
 	margin: 10px;
 	overflow: hidden;
@@ -38,12 +37,107 @@ body {
 }
 
 .bp_flashcard {
-	font-size: 10em;
+	font-size: 20em;
+	font-size: 20vw;
 	height: auto;
+	max-height: 100vh;
+    text-align: center;
+	/* Fixes text gets highlighted when clicked. */
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* IE/Edge */
+	user-select: none;           /* non-prefixed version, currently not supported by any browser */
+}
+
+.bp_flashcard div {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+} 
+
+.bp_premium {
+	font-size: 0.5em;
+	font-size: 5vw;
+	padding: 1em;
+}
+
+.bp_premium button {
+	font-size: 1em;
+	padding: 0.5em;
+}
+
+@media screen and (min-width: 480px) {
+	.bp_premium {
+		font-size: 0.25em;
+		font-size: 2.5vw;
+		padding: 1em;
+	}
+
+	.bp_premium button {
+		font-size: 0.75em;
+	}
 }
 
 .back_button{
 	width:42px;
 	height:42px;
+}
+
+/* Settings menu icon on homepage */
+.settings_button{
+	width: 2.625em;
+	height: 2.625em;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+/* Content area for the homepage menu */
+.menu-content {
+    background-color: white;
+    width: 18.75em;
+    padding: 1.5625em;
+    margin: 1.5625em;
+    text-align: center;
+    border-radius: 0.4375em;
+    display: block;
+    margin: auto;
+}
+
+/* Home page settings menu buttons */
+.menu_button, .close{
+    width: 65%;
+    padding: .4em;
+    margin: .3em;
+    border-radius: 0.4375em;
+	font-size: .75em;
+	font-family: "Muli", sans-serif;
+	background: #d8d8d8;
+	border-width: 0;
+}
+
+/* Header for all the settings menu pages */
+.menu_header{
+    text-align: center;
+    float: middle;
+}
+
+/* Background color for settings menu pages (Set to orange to match homepage) */
+.menu_page_background{
+	background-color: #ff9800;
+}
+
+/* Radio buttons on the settings page */
+.radio_settings{
+	text-align: left;
+	font-size: 1em;
+}
+
+/* Content for the menu pages */
+.help_info, .about_info, .review_info, .upgrade_info{
+	font-size: 0.75em;
+	text-align: left;
 }
 
